@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario1.css">
+    <title>Formulario1</title>
+</head>
+<body>
+    <form autocomplete="off">
+<fieldset>
+
+<legend>Endereço</legend> <br>
+
+<div>
+<label for="logradouro">Rua</label>
+<input type="text" id="logradouro" name="logradouro" placeholder="Digite seu endereço" required  size="50">
+
+<label for="numero">Número</label>
+<input type="text" id="numero" name="numero" placeholder="Número" required  size="5">
+
+<label for="complemento">Complemento</label>
+<input type="text" id="Complemento" name="complemento"  placeholder="Complemento" required  size="10">
+
+</div>
+
+<br>
+
+<div>
+
+<label  for="cidade">Cidade</label>
+<select id="cidade" name="cidade">
+<option value="Fortaleza">Fortaleza</option>
+<option value="Salvador">Salavador</option>
+<option value="Recife">Recife</option>
+<option value="Teresina">Teresina</option>
+<option value="São Luís">São Luís</option>
+<option value="Natal">Natal</option>
+<option value="Maceió">Maceió</option>
+<option value="Aracajú">Aracajú</option>
+<option value="João Pessoa">João Pessoa</option>
+<option value="São Paulo">São Paulo</option>
+<option value="Rio de Janeiro">Rio de Janeiro</option>
+<option value="Vitória">Vitória</option>
+<option value="Belo Horizonte">Belo Horizonte</option>
+
+</select>
+</div>
+<br>
+<div>
+    <label for="estado">Estado</label>
+    <select id="estado" name="estado">
+    <optgroup label="Nordeste">
+    <option value="Ceará">Ceará</option>
+    <option value="Bahia">Bahia</option>
+    <option value="Pernambuco">Pernambuco</option>
+    <option value="Piauí">Piauí</option>
+    <option value="Maranhão">Maranhão</option>
+    <option value="Rio G. do Norte"> Rio Grande do Norte</option>
+    <option value="Alagoas"> Alagoas</option>
+    <option value="Segipe">Sergipe</option>
+    <option value="Paraíba"> Paraíba</option>
+    </optgroup>
+    
+    <optgroup label="Sudeste">
+    <option value="São Paulo">São Paulo</option>
+    <option value="Rio de Janeiro">Rio de Janeiro</option>
+    <option value="Espírito Santo">Espírito Santo</option>
+    <option value="Minas Gerais">Minas Gerais</option>
+        
+    </optgroup>
+    </select>
+    </div>
+    <br>
+</fieldset>
+
+    </form>
+    
+</body>
+</html>

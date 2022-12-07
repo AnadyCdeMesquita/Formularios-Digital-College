@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario3.css">
+    <title>Formulario 3</title>
+</head>
+<body>
+    <form>
+<label for="marca">Marca</label>
+<select id="marca" nome="marca">
+<option value="Ford">Ford</option>
+<option value="Peugeot">Peugeot</option>
+<option value="Chevrolet">Chevrolet</option>
+<option value="Fiat">Fiat</option>
+<option value="Volkswagem">Volkswagem</option>
+</select>
+<br><br>
+<label for="modelo">Modelo</label>
+<select id="modelo" nome="modelo">
+<optgroup label="Ford">
+<option value="Ford Ka">Ford Ka</option>
+<option value="Ranger">Ranger</option>
+</optgroup>
+
+<optgroup label="Peugeot">
+<option value="Peugeot 206"> Peugeot 206 </option>
+<option value="Peugeot">Peugeot Expert</option>
+</optgroup>
+
+<optgroup label="Chevrolet">
+<option value="Camaro ">Camaro </option>
+<option value="Onix">Onix</option>
+</optgroup>
+
+</select>
+<br> <br>
+<label for="placa">Placa:</label>
+<input type="text" id="placa" name="placa" size="7" placeholder="XXXXXXX">
+<br>
+<label for="ano">Ano:</label>
+<input type="text" id="ano" name="ano" size="4" placeholder="XXXX">
+<br> <br>
+<input class="ladoalado" type="submit" value="Enviar">
+<input class="ladoalado" type="reset" value="Reset">
+
+
+    </form>
+    
+</body>
+</html>
