@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    
+    }
+
+    body{
+        background-color: aqua;
+    }
+
+    form{
+        width:300px;
+        background-color: beige;
+        padding: 16px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    form input, form label {
+        display: block;
+        height:40px;
+        padding-left: 10px;
+        
+    }
+
+    form input[type="radio"],
+    form input[type="checkbox"]
+    {
+        display: inline;
+        height: auto;
+        width: auto;
+    }
+
+
+    form .meia-label{
+        display:inline-block;
+        width: 40%;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+
+    form button{
+        width: 150px;
+        height: 40px;
+        background-color: aliceblue;
+        border: 0;
+        margin: 0, auto ;
+        display: block;
+        cursor: pointer;
+
+    }
